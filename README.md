@@ -9,3 +9,7 @@ restful api
 template page
 
 [/web](http://localhost:8000/web)
+
+get from database
+
+[/data](http://localhost:8000/data)

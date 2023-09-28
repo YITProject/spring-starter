@@ -39,21 +39,40 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
-        <!-- TODO Template thymeleaf ↓ -->
-
-<!--                <dependency>-->
-<!--                    <groupId>org.springframework.boot</groupId>-->
-<!--                    <artifactId>spring-boot-starter-thymeleaf</artifactId>-->
-<!--                </dependency>-->
-
-        <!-- TODO Template jsp ↓-->
+        <!---->
 
 
-<!--                <dependency>-->
-<!--                    <groupId>org.apache.tomcat.embed</groupId>-->
-<!--                    <artifactId>tomcat-embed-jasper</artifactId>-->
-<!--                </dependency>-->
+        <!-- Mybatis -->
+
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>3.0.2</version>
+        </dependency>
+
+        <!-- MySQL -->
+
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- TODO Choice one Template ↓ -->
+
+        <!-- Template thymeleaf -->
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
+        <!-- Template jsp -->
+
+        <!--                <dependency>-->
+        <!--                    <groupId>org.apache.tomcat.embed</groupId>-->
+        <!--                    <artifactId>tomcat-embed-jasper</artifactId>-->
+        <!--                </dependency>-->
 
     </dependencies>
 

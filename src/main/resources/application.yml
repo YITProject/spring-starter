@@ -8,3 +8,5 @@ spring:
     view:
       prefix: /WEB-INF/
       suffix: .jsp
+  datasource:
+    url: jdbc:mysql://0.0.0.0/
