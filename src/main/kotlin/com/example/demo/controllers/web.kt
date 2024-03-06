@@ -6,10 +6,10 @@ import org.springframework.ui.set
 import org.springframework.web.bind.annotation.GetMapping
 
 @Controller
-class JSPController {
+class PageController {
 
     @GetMapping("/web")
-    fun blog(model: Model): String {
+    fun webpage(model: Model): String {
         model["hello"] = "Hello!"
         return "page"
     }

@@ -1,10 +1,9 @@
-#server.port=8000
 server:
   port: 8000
 
-
-spring:
-  mvc:
-    view:
-      prefix: /WEB-INF/
-      suffix: .jsp
+# # JSP
+#spring:
+#  mvc:
+#    view:
+#      prefix: /WEB-INF/
+#      suffix: .jsp
